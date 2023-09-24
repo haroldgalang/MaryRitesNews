@@ -6,13 +6,13 @@ $(document).ready(function () {
 
 const fetchNews = async (page) => {
 
-  // var url = 'https://newsapi.org/v2/top-headlines?' +
-  // 'country=us&' +
-  // 'from=2023-09-23&' +
-  // 'from=2023-09-24&' +
-  // 'pageSize=40&' +
-  // 'apiKey=666371932c55476082f057f828446cdd';
-  // var req = new Request(url);
+  var url = 'https://newsapi.org/v2/top-headlines?' +
+  'country=us&' +
+  'from=2023-09-23&' +
+  'from=2023-09-24&' +
+  'pageSize=40&' +
+  'apiKey=666371932c55476082f057f828446cdd';
+  var req = new Request(url);
 
   // let a = await fetch(req)
   // let response = await a.json()
